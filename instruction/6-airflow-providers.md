@@ -66,6 +66,11 @@ WHERE
 airflow tasks test postgres_loader execute_sql_query 2023-01-01
 ```
 
+![admin connection](./img/airflow_admin_connection.png)
+
+![admin connection postgres](./img/airflow_admin_conntection_postgres.png)
+
+
 ## Trouble shoot
 
 https://github.com/apache/airflow/issues/26431
