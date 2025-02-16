@@ -23,6 +23,8 @@ cf. [Architecture Overview](https://airflow.apache.org/docs/apache-airflow/stabl
 
 ## [DAGs](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html)
 
+Keep one operator for one task only
+
 DAG (Directed Acyclic Graph) is a fundamental concept used to define and represent workflows or data pipelines. A DAG is a collection of tasks with dependencies between them, forming a directed graph structure where the nodes represent tasks and the edges represent the dependencies.
 - 워크플로우 또는 데이터 파이프라인을 정의하고 표현하는 데 사용되는 기본 개념
 - DAG는 서로 의존성을 가진 작업들의 집합으로, 노드는 작업을 나타내고 간선은 의존성을 나타내는 방향 그래프 구조를 형성
