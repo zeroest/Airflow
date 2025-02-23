@@ -3,6 +3,7 @@
 
 In Apache Airflow, a sensor is a type of operator that pauses the execution of a task within a DAG (Directed Acyclic Graph) until a specific condition is met.   
 - Apache Airflow에서 센서는 특정 조건이 충족될 때까지 DAG(Directed Acyclic Graph) 내의 태스크 실행을 일시 중지하는 연산자 유형
+
 Sensors are used to wait for external events, changes in the system, or certain conditions to be satisfied before proceeding with the execution of downstream tasks.
 - 센서는 외부 이벤트, 시스템 변경 또는 특정 조건이 충족될 때까지 대기한 후, 다운스트림 태스크의 실행을 진행하도록 사용
 

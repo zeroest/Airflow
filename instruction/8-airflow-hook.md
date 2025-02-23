@@ -3,8 +3,10 @@
 
 A Hook is a high-level interface to an external platform  
 - Hook은 외부 플랫폼과 상호작용할 수 있는 고수준 인터페이스로,
+
 that lets you quickly and easily talk to them without having to write low-level code that hits their API or uses special libraries.  
 - 해당 API를 직접 호출하거나 특정 라이브러리를 사용하지 않고도 쉽고 빠르게 통신할 수 있도록 도와줍니다.
+
 They’re also often the building blocks that Operators are built out of.
 - 또한, 종종 Operator를 구성하는 기본 요소로 사용되기도 합니다.
 

@@ -6,8 +6,10 @@
 
 Airflow provider refers to a specific implementation or integration of functionality within Airflow.
 - Airflow 내에서 특정 기능을 구현하거나 통합하는 구성 요소를 의미
+
 Providers allow Airflow to support and interact with different external systems, services, or technologies.
 - Airflow가 다양한 외부 시스템, 서비스 또는 기술과 상호 작용할 수 있도록 지원
+
 Airflow’s modular architecture enables the inclusion of various providers, which extend its capabilities beyond the core functionality. Providers typically include operators, hooks, sensors, and other components tailored to interact with a specific system or service. (>= 2.0, a.k.a. contrib before)
 - Airflow의 모듈식 아키텍처는 여러 제공자를 포함할 수 있도록 하여 핵심 기능을 넘어 확장할 수 있도록 한다 
 - 일반적으로 특정 시스템이나 서비스와 상호 작용할 수 있도록 설계된 연산자(Operator), 후크(Hook), 센서(Sensor) 및 기타 구성 요소를 포함
@@ -16,7 +18,7 @@ Airflow’s modular architecture enables the inclusion of various providers, whi
 
 ## Postgres Example
 
-[](../install/on-premise/airflow/dags/postgres_loader.py)
+[postgres_loader.py](../install/on-premise/airflow/dags/postgres_loader.py)
 
 ```bash
 pip install apache-airflow-providers-postgres
