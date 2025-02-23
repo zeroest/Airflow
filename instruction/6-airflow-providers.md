@@ -16,6 +16,8 @@ Airflow’s modular architecture enables the inclusion of various providers, whi
 
 ## Postgres Example
 
+[](../install/on-premise/airflow/dags/postgres_loader.py)
+
 ```bash
 pip install apache-airflow-providers-postgres
 ```
@@ -68,7 +70,7 @@ airflow tasks test postgres_loader execute_sql_query 2023-01-01
 
 ![admin connection](./img/airflow_admin_connection.png)
 
-![admin connection postgres](./img/airflow_admin_conntection_postgres.png)
+![admin connection postgres](./img/providers-my_postgres_conntection.png)
 
 
 ## Trouble shoot

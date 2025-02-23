@@ -37,3 +37,7 @@ sal_sensor = SqlSensor(
 ```
 
 cf. https://heumsi.github.io/apache-airflow-tutorials-for-beginner/dags/07-providers/#provider-package-%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A8
+
+## Example
+
+[sql_sensor.py](../install/on-premise/airflow/dags/sql_sensor.py)
